@@ -9,7 +9,7 @@
     width: 90%;
 }
 .padding-top-bottom{
-    padding-top: 5%;
+    padding-top: 10%;
     padding-bottom: 5%;
 }
 .section-title-wrapper{
@@ -25,11 +25,20 @@
     color: #fff;
     text-decoration: none;
     background: #FF5959;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 20px;
     border-radius: 5px;
     padding: 15px 25px;
+}
+.section-title{
+    font-size: 60px;
+    color: #121212;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.gray-text{
+    color: #707070;
 }
 /* Banner section */
 #banner {
@@ -46,4 +55,59 @@
     font-size: 70px;
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
+}
+
+/* make a donation */
+.amount-wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 60px auto;
+}
+.amount-box{
+    width: 18%;
+    height: 125px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.amount-text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #707070;
+    font-size: 30px;
+}
+.selected{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+    color: #FF5959;
+}
+.amount-input-wrapper{
+    width: 80%;
+}
+.custom-input-form {
+    display: flex;
+    flex-direction: column;
+}
+.custom-amount-input {
+    width: 100%;
+    height: 60px;
+    border: 2px solid #fff;
+    border-bottom: 2px solid #DADADA;
+    text-align: center;
+    font-size: 18px;
+    color: #121212;
+    margin-bottom: 40px;
+}
+.custom-amount-input:focus-visible {
+    border: 2px solid #DADADA;
+}
+.custom-amount-input::placeholder{
+    color: #B3B3B3; 
+}
+button.donate-btn {
+    border: none;
 }
