@@ -180,3 +180,36 @@ button.donate-btn {
     border: none;
     margin: 0 auto 0 0;
 }
+
+
+/* Footer */
+#footer{
+    background-color: #0B0D17;
+    padding: 2%;
+    color: #fff;
+    text-align: center;
+}
+.footer-wrapper{
+
+}
+.org {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.org-logo{
+    width: 100px;
+}
+.org-name {
+    font-size: 42px;
+    font-family: 'Raleway';
+    margin-left: 15px;
+}
+.org-name span {
+    color: #ff5959;
+    font-family: 'Raleway';
+    font-weight: 900;
+}
+.copywrite{
+    font-size: 12px;
+}
