@@ -18,6 +18,12 @@
     text-align: center;
     width: 60%;
 }
+.section-title{
+    font-size: 60px;
+    color: #121212;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
 .section-subtitle{
     font-size: 18px;
     line-height: 28px;
@@ -33,12 +39,7 @@
     border-radius: 5px;
     padding: 15px 25px;
 }
-.section-title{
-    font-size: 60px;
-    color: #121212;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-}
+
 .gray-text{
     color: #707070;
 }
@@ -176,6 +177,12 @@ button.donate-btn {
     background-color: #d9d9d9;
     border-radius: 5px;
 }
+.contact-send-btn-wrapper{
+    display: flex;
+}
+.btn-right{
+    margin-right: 0;
+}
 .contact-details-wrapper {
     width: 30%;
     box-shadow: 0px 5px 50px 0px #d9d9d9;
@@ -233,6 +240,7 @@ button.donate-btn {
     width: 30%;
     margin-right: -5px;
     padding: 10px;
+    font-size: 18px;
 }
 .subscribe-btn {
     color: #fff;
@@ -279,5 +287,3 @@ button.donate-btn {
 .copywrite{
     font-size: 12px;
 }
-
-/*  */
