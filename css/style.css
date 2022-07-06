@@ -8,9 +8,11 @@
     max-width: 1440px;
     width: 90%;
 }
-.padding-top-bottom{
+.padding-top{
     padding-top: 10%;
-    padding-bottom: 5%;
+}
+.padding-bottom{
+    padding-bottom: 10%;
 }
 .section-title-wrapper{
     text-align: center;
@@ -144,4 +146,37 @@ button.donate-btn {
 .mission-description{
     font-size: 16px;
     color: #707070;
+}
+
+/* Subscribe section */
+.subscribe-wrapper{
+    border-radius: 5px;
+    width: 70%;
+    background-color: rgba(255, 244, 214, 100%);
+    padding: 5% 0;
+
+}
+.subscribe-form{
+    display: flex;
+}
+.subscribe-input {
+    background-color: #d9d9d9;
+    color: #000;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    width: 30%;
+    margin-right: -5px;
+    padding: 10px;
+}
+.subscribe-btn {
+    color: #fff;
+    text-decoration: none;
+    background: #FF5959;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 0px 5px 5px 0px;
+    padding: 15px 25px;
+    border: none;
+    margin: 0 auto 0 0;
 }
